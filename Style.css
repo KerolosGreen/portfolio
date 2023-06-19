@@ -172,7 +172,7 @@ justify-self: flex-end;
   flex-direction: row;
   margin: 10px;
   border-radius: 15px;
-  justify-content: space-between;
+  ustify-content: space-evenly;
   align-items: center;
   width: 96%;
   height: fit-content;
