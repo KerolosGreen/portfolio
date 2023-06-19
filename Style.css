@@ -200,6 +200,9 @@ justify-self: flex-end;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+    margin-left: auto;
+margin-right: auto;
+
 }
 .project-description{
   margin: 5px;
