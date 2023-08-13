@@ -190,7 +190,7 @@ justify-self: flex-end;
 
 .my-projects-cont .project .project-photo{
  
- width: 60%;
+ max-width: 60%;
 
 
  /* align-self: flex-end; */
