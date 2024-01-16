@@ -68,6 +68,8 @@ section{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  animation: photoanm infinite;
+  animation-duration: 4s;
 }
 .About-cont{
   margin: 5px;
@@ -220,4 +222,12 @@ margin-right: auto;
   .More-aboutme-cont{
    width: 96%;
   }
+}
+@keyframes photoanm {
+  0% {border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;}
+  /* 25% {border-radius: 80% 60% 50% 90% / 80% 50% 90% 60%;} */
+  /* 50% {border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;background-image: linear-gradient(45deg,#fa88ff,#2bd2ff 50%, #2bff88 90%);} */
+  50% {border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;}
+  /* 75% {border-radius: 80% 60% 50% 90% / 80% 50% 90% 60%;} */
+  100% {border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;}
 }
